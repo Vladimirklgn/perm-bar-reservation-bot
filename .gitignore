@@ -1,0 +1,55 @@
+# IntelliJ IDEA / IDE файлы
+.idea/
+*.iml
+*.iws
+out/
+
+# Скомпилированные классы и артефакты
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Локальные настройки и секреты (самое важное!)
+application.yml
+application.properties
+application-*.yml
+application-*.properties
+.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+*.secret
+
+# Логи и временные файлы
+*.log
+logs/
+temp/
+tmp/
+
+# Maven / Gradle кэш
+.mvn/
+.m2/
+gradle/
+build/
+gradle.properties
+
+# Другие часто встречающиеся
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.classpath
+.project
+.settings/
+
+# Базы данных (если локально тестируешь)
+*.sql
+*.db
+*.sqlite
+
+# Docker (если потом будешь использовать)
+docker-compose.override.yml
